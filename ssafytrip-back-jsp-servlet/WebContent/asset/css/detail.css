@@ -1,0 +1,78 @@
+/* �긽�떒 諛곕꼫 - start */
+.image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* �긽�떒 諛곕꼫 - end */
+
+/* Map & Description - start */
+.map-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  width: 1000px;
+  height: 400px;
+
+  margin-right: 40px;
+}
+
+.description {
+  width: 100%;
+}
+
+#description-title {
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+#description-subtext {
+  padding-right: 10px;
+  line-height: 24px;
+}
+/* Map & Description - end */
+
+/* 하단 이미지 - start */
+.detail-section {
+  margin: 60px 0 70px 0;
+}
+
+.deatil-head {
+  margin-bottom: 15px;
+}
+
+.addr {
+  margin-bottom: 10px;
+}
+
+.detail-img {
+  width: 520px;
+}
+
+.detail-img-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.detail-img-container img {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.detail-img-container > div:nth-child(4n + 2) img {
+  margin: 0 40px;
+}
+
+.detail-img-container > div:nth-child(4n + 3) img {
+  margin: 0 40px 0 0;
+}
+/* 하단 이미지 - end */

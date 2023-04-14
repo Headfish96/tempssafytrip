@@ -1,0 +1,25 @@
+/* 모든 페이지의 공통 CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+}
+
+header,
+main,
+footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+main {
+  min-height: 700px;
+}
+

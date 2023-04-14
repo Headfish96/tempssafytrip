@@ -1,0 +1,157 @@
+/* Swiper - start */
+.swiper-container {
+  overflow: hidden;
+}
+
+.swiper-slide:hover {
+  cursor: pointer;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  left: 20px;
+}
+
+.swiper-button-next {
+  right: 20px;
+}
+
+.div-img-temp {
+  background-size: cover;
+  height: 400px;
+  background-position: 200px;
+}
+
+.swiper-description {
+  background-color: #345;
+  /* padding: 50px; */
+  width: 350px;
+  height: 400px;
+}
+
+.swiper-description > h2 {
+  padding: 50px 20px 30px 20px;
+  font-family: "NanumSquareRound";
+  font-size: 35px;
+  color: white;
+}
+
+.swiper-description > p {
+  padding: 0 20px 0 20px;
+  /* font-family: "NanumSquareRound"; */
+  line-height: 30px;
+  font-size: 17px;
+  color: white;
+}
+/* Swiper - end */
+
+.recommend-container {
+  margin-bottom: 60px;
+  margin-top: 70px;
+}
+
+.popular-container {
+  margin: 60px 0;
+}
+
+.popular-card-list {
+  display: flex;
+  justify-content: space-between;
+  /* height: 700px; */
+}
+
+.popular-card:hover {
+  cursor: pointer;
+}
+
+.popular-img > img {
+  width: 360px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+h3.popular-title {
+  margin-top: 10px;
+}
+
+.recommend-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.recommend-row > div {
+  width: 360px;
+  margin: 10px 0px;
+}
+.recommend-img > img {
+  width: 360px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recommend-title {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.main-text {
+  margin-bottom: 30px;
+  margin-left: 0;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.hover-item:hover {
+  cursor: pointer;
+}
+
+.see-more-btn {
+  width: 100px;
+  height: 30px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #1163b9;
+}
+
+.see-more-btn-div {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0px;
+}
